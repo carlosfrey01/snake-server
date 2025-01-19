@@ -1,0 +1,1 @@
+from message_queue_handler import message_queue
