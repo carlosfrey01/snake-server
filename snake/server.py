@@ -41,7 +41,7 @@ class Server:
 
     async def main(self):
         async with websockets.serve(self.handle_connection, "localhost", 6789):
-            print("WebSocket server is running on ws://localhost:6789")
+            print(f"WebSocket server is running on ws://localhost:{6789}")
             await asyncio.Future()
 
 
